@@ -1,4 +1,4 @@
-# DESCRIÇÃO DO PROJETO
+# **Descrição**
 # Uma Viagem Matematicamente Cômica pelo Mundo dos Cálculos de Combustível!
 
 Prepare-se para embarcar em uma jornada emocionante e matematicamente desafiadora! Nossa plataforma oferece uma experiência única, repleta de cálculos hilários que vão fazer você rir e chorar ao mesmo tempo. Se você está cansado das mesmas piadas sem graça, estamos aqui para oferecer uma dose saudável de matemática e humor.
