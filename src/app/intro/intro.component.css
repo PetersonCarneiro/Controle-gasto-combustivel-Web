@@ -1,0 +1,8 @@
+.container {
+    display: flex; /* Define um contêiner flexível */
+}
+
+.column {
+    flex: 1; /* Faz com que as colunas ocupem a mesma quantidade de espaço */
+    padding: 20px; /* Adiciona espaço ao redor do conteúdo */
+}

@@ -3,14 +3,17 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { HomePageComponent } from './home-page/home-page.component';
-import { ResoucePageComponent } from './resouce-page/resouce-page.component';
+import { MenuComponent } from './menu/menu.component';
+import { FooterComponent } from './footer/footer.component';
+import { IntroComponent } from './intro/intro.component';
+
 
 @NgModule({
   declarations: [
     AppComponent,
-    HomePageComponent,
-    ResoucePageComponent
+    MenuComponent,
+    FooterComponent,
+    IntroComponent,
   ],
   imports: [
     BrowserModule,
