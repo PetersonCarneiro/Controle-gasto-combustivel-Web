@@ -9,6 +9,7 @@
         <h2>A melhor calculadora de gasto com combustível,
             Click para entrar.</h2>
         <a class="waves-effect waves-light btn"
+                [routerLink]="['/calc']" [queryParams]="{veiculo:'veicule01'}"
                 type="button"
                 (click)="this.onButtonClickAgain()"
         >Entrar</a>

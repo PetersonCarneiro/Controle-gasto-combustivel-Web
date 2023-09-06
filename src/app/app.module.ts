@@ -6,6 +6,9 @@ import { AppComponent } from './app.component';
 import { MenuComponent } from './menu/menu.component';
 import { FooterComponent } from './footer/footer.component';
 import { IntroComponent } from './intro/intro.component';
+import { CalcComponent } from './calc/calc.component';
+import { FormsModule } from '@angular/forms';
+import { ResultComponent } from './result/result.component';
 
 
 @NgModule({
@@ -14,10 +17,13 @@ import { IntroComponent } from './intro/intro.component';
     MenuComponent,
     FooterComponent,
     IntroComponent,
+    CalcComponent,
+    ResultComponent,
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
