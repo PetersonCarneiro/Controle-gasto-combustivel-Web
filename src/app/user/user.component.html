@@ -102,3 +102,13 @@
     </button>
   </form>
 </div>
+<div class="row" *ngIf="showElements">
+  <h4>Usuários Cadastrados:</h4>
+  <ul>
+    <li *ngFor="let user of users">
+      <strong>Nome:</strong> {{ user.name }}<br>
+      <strong>Sobrenome:</strong> {{ user.lastName }}<br>
+      <strong>Email:</strong> {{ user.email }}<br><br>
+    </li>
+  </ul>
+</div>
