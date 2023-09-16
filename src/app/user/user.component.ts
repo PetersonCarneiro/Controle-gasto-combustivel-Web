@@ -18,7 +18,7 @@ export class UserComponent {
 
 
   onSubmit() {
-      const user = {
+      let user = {
         name: this.name,
         lastName: this.lastName,
         password: this.password,
@@ -27,6 +27,8 @@ export class UserComponent {
       };
       // Adicione o objeto 'user' ao vetor 'users'
       this.users.push(user);
+      let json = JSON.stringify(user);
+      localStorage['user'] = json;
       this.clearFields();
     
   }
