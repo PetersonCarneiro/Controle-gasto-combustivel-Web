@@ -4,7 +4,9 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
-    "build": "ng build",
+    "build": "ng build --base-href=/Controle-gasto-combustivel-Web/" ,
+    "ghpages": "angular-cli-ghpages  --no-silent --dir=dist/Controle-gasto-combustivel-Web",
+    "deploy": "npm run build & npm run ghpages",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
     "json:server": "json-server --watch db.json",
