@@ -1,0 +1,18 @@
+.container {
+    display: flex;
+  }
+  
+  .column {
+    flex: 1;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .button-container {
+    flex-grow: 1; /* Faz com que a div ocupe todo o espaço vertical disponível */
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Centraliza verticalmente */
+    align-items: center; /* Centraliza horizontalmente */
+  }

@@ -1,0 +1,12 @@
+.container {
+    display: flex;
+    justify-content: center; /* Centralize as colunas horizontalmente */
+    align-items: center;
+    height: 50vh; /* Defina uma altura para centralizar verticalmente (opcional) */
+  }
+  
+  .column {
+    flex: 1;
+    padding: 100px;
+    
+  }
